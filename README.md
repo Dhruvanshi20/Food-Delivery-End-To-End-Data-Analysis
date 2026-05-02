@@ -1,41 +1,55 @@
-📊 Food Delivery End-to-End Data Analysis Project
-🔍 Project Overview
+# 📊 Food Delivery End-to-End Data Analysis
 
-This is an end-to-end data analytics project focused on analyzing food delivery performance, covering the complete pipeline from raw data cleaning to final dashboard visualization.
+## Objective
+Analyze delivery performance to understand how factors like distance, delivery time, and vehicle type impact customer ratings and overall efficiency.
 
-🎯 Objectives
-Understand factors affecting delivery time and customer ratings
-Analyze performance across different vehicle types
-Identify and handle data inconsistencies and outliers
-Build an interactive dashboard for business insights
+---
 
-🔄 End-to-End Workflow
-1. Data Understanding
-Explored dataset structure and key variables
-Identified potential issues in distance and delivery metrics
-2. Data Cleaning & Preparation
-Detected extreme outliers (max distance ~19,692)
-Compared mean vs median to identify skewness
-Handled outliers using filtering and capping techniques
-Standardized distance values for realistic analysis
-3. Exploratory Data Analysis (EDA)
-Analyzed relationships between:
-Delivery time and ratings
-Distance and delivery time
-Evaluated performance differences across vehicle types
-4. Data Visualization (Tableau)
-Built an interactive dashboard to track:
-Delivery time
-Distance
-Customer ratings
-Vehicle performance
+## Tools Used
+- Python
+- Pandas
+- Excel
+- Tableau
+- Basic Statistics
 
-📈 Key Insights
-Scooters and electric scooters deliver orders fastest
-Delivery time has a negative impact on customer ratings
-Distance is a major factor influencing delivery delays
-Faster deliveries lead to higher customer satisfaction
+---
 
-🛠 Tools Used
-Python / Excel → Data Cleaning & Analysis
-Tableau → Dashboard & Visualization
+## What I Did
+- Cleaned and explored the dataset  
+- Identified inconsistencies in delivery distance (extreme values up to ~19,000)  
+- Compared mean vs median to detect skewness  
+- Handled outliers using filtering and capping techniques  
+- Standardized distance values for realistic analysis  
+- Performed Exploratory Data Analysis (EDA) on:
+  - Delivery time vs customer ratings  
+  - Distance vs delivery time  
+  - Vehicle-wise performance  
+- Built an interactive dashboard in Tableau  
+
+---
+
+## Key Insights
+- Scooters and electric scooters showed the lowest delivery time, indicating higher efficiency  
+- Delivery time has a negative impact on customer ratings  
+- Longer distances lead to increased delivery time  
+- Faster deliveries are associated with higher customer satisfaction  
+- Data cleaning was critical to ensure accurate and meaningful insights  
+
+---
+
+## Skills Learned
+- Data cleaning and preprocessing using Pandas  
+- Outlier detection and handling  
+- Exploratory Data Analysis (EDA)  
+- Data validation using statistical thinking  
+- Dashboard design and storytelling in Tableau  
+
+---
+
+## Dashboard Preview
+<img width="1600" height="1000" alt="WhatsApp Image 2026-05-02 at 14 46 03" src="https://github.com/user-attachments/assets/7cfb6283-96e8-4f16-ab40-908b7c9699c4" />
+
+---
+
+## Outcome
+Built a complete end-to-end data analytics project, from raw data cleaning to final dashboard visualization, focusing on deriving meaningful business insights.
